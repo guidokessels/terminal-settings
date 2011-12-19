@@ -2,6 +2,19 @@
 " Author: Michael Geddes
 " Version: 0.1
 
+" Map F2 to NERDTreeToggle
+nmap <f2> :NERDTreeToggle<cr>
+" Let NERDTRee view hidden files
+let NERDTreeShowHidden=1
+
+" Highlight search matches
+set hlsearch
+
+" Automatically reloads vimrc after saving it
+if has("autocmd")
+	autocmd bufwritepost .vimrc source $MYVIMRC
+endif
+
 " Smart tabbing / autoindenting
 set number
 set undolevels=100
@@ -15,6 +28,8 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 set cino=t0
+" Make split below current file
+set splitbelow
 " I like it writing automatically on swapping
 set autowrite
 set noshowcmd
