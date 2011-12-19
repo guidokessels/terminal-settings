@@ -2,7 +2,7 @@
 	name = Guido Kessels
 	email = guidokessels@gmail.com
 [core]
-	autocrlf = input
+	autocrlf = true
 [color]
 	diff = auto
 	status = auto
