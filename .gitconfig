@@ -1,8 +1,8 @@
 [user]
 	name = Guido Kessels
-	email = guido.kessels@spilgames.com
+	email = guidokessels@gmail.com
 [core]
-	autocrlf = true
+	autocrlf = input
 [color]
 	diff = auto
 	status = auto
@@ -10,9 +10,9 @@
 	interactive = auto
 	ui = auto
 [gc]
-	auto=1
+	auto = 1
 [merge]
-	summay=true
+	summay = true
 [alias]
 	b = branch -v
 	r = remote -v
