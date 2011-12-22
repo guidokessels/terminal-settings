@@ -12,7 +12,7 @@
 [gc]
 	auto = 1
 [merge]
-	summay = true
+	summary = true
 [alias]
 	b = branch -v
 	r = remote -v
