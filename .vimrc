@@ -25,8 +25,10 @@ set smarttab
 set backspace=2
 set exrc
 set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+set expandtab " Inserts spaces when tab is pressed
+set shiftwidth=4 " Number of space characters inserted for indentation
+set tabstop=4 " Number of space characters inserted when tab key is pressed
+set softtabstop=4 " Makes the backspace key treat 4 spaces like a tab
 set cino=t0
 " Make split below current file
 set splitbelow
