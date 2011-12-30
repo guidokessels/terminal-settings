@@ -171,4 +171,6 @@ set display+=lastline
 set printoptions=syntax:y,wrap:y
 
 " Switch on syntax highlighting.
+set t_Co=256 " Enable all colours. This HAS to be before 'syntax on'
 syntax on
+color jellybeans
